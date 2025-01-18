@@ -1,0 +1,28 @@
+
+/* font */
+*{
+  font-family: "Rubik", serif;
+}
+
+/* list style */
+
+ ul {
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid black;
+ }
+
+ a {
+    color: black;
+    text-decoration: none;
+ }
+
+ /* list position */
+
+ li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+ }
