@@ -26,7 +26,10 @@
     margin-top: 20px;
     margin-left: 40px;
  }
-
+ /* category section*/
+ .category-image{
+  width: 30%;
+ }
  /* form */
  
  form {
