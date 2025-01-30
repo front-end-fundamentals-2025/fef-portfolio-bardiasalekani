@@ -26,10 +26,39 @@
     margin-top: 20px;
     margin-left: 40px;
  }
- /* category section*/
- .category-image{
-  width: 30%;
+
+ @media screen and (max-width: 520px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    display: block;
+    margin: 10px 0;
+  }
  }
+  
+
+ /* category section*/
+
+ .category-image {
+  width: 100%;
+ }
+
+ @media screen and (min-width: 520px ) {
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+ }
+
+ @media screen and (min-width: 750px ) {
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
+   }
+ }
+
  /* form */
  
  form {
