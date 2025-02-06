@@ -46,6 +46,21 @@
   width: 60%;
  }
 
+ /*adding animation*/
+@keyframes grow{
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.category-image:hover{
+  animation-name: grow;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
  @media screen and (min-width: 520px ) {
   .category-container {
     display: grid;
