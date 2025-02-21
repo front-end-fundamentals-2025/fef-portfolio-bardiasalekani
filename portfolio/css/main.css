@@ -1,4 +1,13 @@
 
+
+.dark-mode {
+  background-color: #0A0A0A;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #ffffff;
+}
 /* font */
 *{
   font-family: "Rubik", serif;
