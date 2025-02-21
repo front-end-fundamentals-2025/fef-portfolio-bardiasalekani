@@ -1,5 +1,15 @@
 
-
+/*color button*/
+#dark-mode {
+  background-color: #333;
+  color: #ffffff;
+  border-radius: 4px;
+}
+#light-mode {
+  background-color: #f0f0f0;
+  color: #000;
+  border-radius: 4px;
+}
 .dark-mode {
   background-color: #0A0A0A;
   color: #ffffff;
@@ -8,6 +18,7 @@
 .dark-mode a {
   color: #ffffff;
 }
+
 /* font */
 *{
   font-family: "Rubik", serif;
